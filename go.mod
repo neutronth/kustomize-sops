@@ -28,3 +28,15 @@ require (
 	sigs.k8s.io/kustomize/api v0.3.2
 	sigs.k8s.io/yaml v1.2.0
 )
+
+replace (
+	cloud.google.com/go => cloud.google.com/go v0.38.0
+	github.com/golang/protobuf => github.com/golang/protobuf v1.3.2
+	github.com/pkg/errors v0.9.1 => github.com/pkg/errors v0.8.1
+	golang.org/x/crypto => golang.org/x/crypto v0.0.0-20191206172530-e9b2fee46413
+	golang.org/x/net => golang.org/x/net v0.0.0-20191004110552-13f9640d40b9
+	golang.org/x/oauth2 => golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
+	golang.org/x/sys => golang.org/x/sys v0.0.0-20190922100055-0a153f010e69
+	gopkg.in/yaml.v2 => gopkg.in/yaml.v2 v2.2.4
+	sigs.k8s.io/yaml => sigs.k8s.io/yaml v1.1.0
+)
